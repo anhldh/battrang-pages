@@ -90,33 +90,18 @@ export const productItems = [
 
 /* --- Nghệ nhân --- */
 export const featuredArtisan = {
-  kicker: "Chân dung tháng này",
-  name: "Nghệ nhân Lê Đình Hoàng Anh",
-  meta: "48 năm bên bàn xoay · Men lam cổ · Xưởng gốm Đoàn Gia",
-  bio: "Ông bắt đầu học nghề từ năm mười hai tuổi, khi lò than còn nhóm bằng củi và men lam được nghiền tay trong cối đá. Nửa thế kỷ sau, xưởng của ông vẫn giữ cách vẽ chìm dưới men và công thức tro trấu pha theo mùa.",
-  quote: "“Đất không nói, nhưng đất nhớ tay người.”",
+  kicker: "Nghệ nhân ưu tú",
+  name: "Nghệ nhân Đức Tân",
+  meta: "Hàng chục năm phát triển",
+  bio: `Để tạo sự khác biệt trong sản phẩm trên đất làng nghề có tuổi đời hàng trăm năm năm, nghệ nhân ưu tú Đức Tân và vợ là nghệ nhân Thu Hằng đã quyết tâm nghiên cứu và tìm lối đi cho riêng mình bằng một phong cách riêng biệt và kỹ thuật tráng men độc đáo. 
+Đang vào hạ, trời nắng nóng như đổ lửa nhưng gian hàng trưng bày của Hợp tác xã Sản xuất kinh doanh gốm sứ Tân Thịnh vẫn đông nườm nượp khách du lịch quốc tế và trong nước. Đến làng Bát Tràng không ai là không biết đến nghệ nhân ưu tú Đức Tân, Giám đốc Hợp tác xã Sản xuất kinh doanh gốm sứ Tân Thịnh.
+Sinh ra và lớn lên trong một gia đình có truyền thống làm gốm tại Bát Tràng nhiều đời, nghệ nhân ưu tú Trần Đức Tân đã nuôi dưỡng ước mơ từ thuở nhỏ, ông luôn tự tìm kiếm, sáng tạo ra những sản phẩm gốm mới lạ mang phong cách và thương hiệu gốm Đức Tân rất riêng biệt. Năm 2013, ông thành lập Hợp tác xã Sản xuất kinh doanh Gốm Tân Thịnh, nơi tập hợp 11 thành viên đều là những nghệ nhân giỏi, ưu tú của làng.
+Ngay từ những ngày đầu, Tân Thịnh đã tập trung nghiên cứu để "làm mới" gốm cổ. Đặc biệt để tăng tính nhận diện sản phẩm, mỗi năm Tân Thịnh đều sẽ cho ra những bộ sản phẩm với họa tiết, màu sắc khác nhau, phù hợp với thị hiếu của từng phân khúc khách hàng. Một số tác phẩm tiêu biểu được người yêu nghệ thuật ưa thích phải kể đến: Bình gốm vân đá, bộ lọ gốm hoa văn cách điệu hoa cúc dây, tác phẩm Ngũ sắc liên hoa với chất liệu gốm men màu gấm kim sa, Sen cổ có chất liệu gốm men màu đục mờ….",
+`,
+  quote: "Mang văn hóa Việt đi khắp năm châu",
 };
 
-export const artisans = [
-  {
-    id: "a1",
-    name: "Lê Hoàng Anh",
-    meta: "Vẽ men lam · 32 năm",
-    body: "Người đưa hoạ tiết rồng phượng thời Lê trở lại trên dòng bình cao hơn một mét.",
-  },
-  {
-    id: "a2",
-    name: "Hoàng Anh",
-    meta: "Men ngọc · 21 năm",
-    body: "Thử nghiệm hơn bốn trăm mẻ men trước khi tìm lại sắc xanh ngọc của gốm cổ.",
-  },
-  {
-    id: "a3",
-    name: "Lại là Hoàng Anh",
-    meta: "Tạo hình · 27 năm",
-    body: "Chuyên tượng thờ và linh vật, đắp tay từng chi tiết không dùng khuôn.",
-  },
-];
+export const artisans = [];
 
 /* --- Quy trình --- */
 /** Link video quy trình. react-player tự nhận dạng nguồn: link YouTube
